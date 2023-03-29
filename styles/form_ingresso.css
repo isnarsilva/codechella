@@ -47,7 +47,7 @@
     text-align: center;
 }
 
-input[type=text], input[type=email], #ingresso, #cpf {
+input[type=text], input[type=email], #ingresso {
     padding: .5rem 0;
     margin: 0.5rem 0 2rem 0;
     width: 100%;
@@ -57,10 +57,6 @@ input[type=date] {
     padding: .5rem 0;
     margin-top: .5rem;
     width: 100%;
-}
-
-#cpf {
-    width: 50%;
 }
 
 @media(min-width: 768px) {
