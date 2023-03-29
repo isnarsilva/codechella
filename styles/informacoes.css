@@ -1,0 +1,116 @@
+.infos__banner__imagem {
+    width: 100%;
+    height: 281px;
+    background-image: url(../img/Banner_Infos_gerais_360.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: inline-block;
+}
+
+.infos__perguntas {
+    padding: 3rem 1.5rem 3rem 1.5rem;
+}
+
+.infos__perguntas__titulo {
+    font-family: var(--fonte-secundaria);
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.infos__perguntas__container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.infos__perguntas__container__box__pergunta {
+    background-color: var(--azul-escuro);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.infos__perguntas__container____box__pergunta-texto {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--branco);
+    text-align: left;
+    padding: 1rem;
+}
+
+.infos__perguntas__container__box__pergunta-seta {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/arrow_drop_down.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.infos__perguntas__container__box__resposta {
+    background-color: var(--azul-piscina);
+    margin-bottom: 1rem;
+    display: none;
+}
+
+.infos__perguntas__container__box__resposta-texto {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    padding: 1rem;
+}
+
+.infos__perguntas__container__box__resposta-texto underline {
+    text-decoration: underline;
+}
+
+
+@media(min-width: 768px) {
+    .infos__banner__imagem {
+        width: 100%;
+        height: 384px;
+        background-image: url(../img/Banner_Infos_gerais_768.png);
+    }
+
+    .infos__perguntas {
+        padding: 3rem 3.75rem 4rem 3.75rem;
+    }
+
+    .infos__perguntas__container__box__pergunta {
+        justify-content: space-between;
+    }
+
+    .infos__perguntas__container____box__pergunta-texto {
+        padding-right: 3rem;
+    }
+
+    .infos__perguntas__container____box__pergunta-seta {
+        width: 12px;
+        height: 12px;
+    }
+
+}
+
+@media(min-width: 1440px) {
+    .infos__banner__imagem {
+        width: 100%;
+        height: 407px;
+        background-image: url(../img/Banner_Infos_gerais_1440.png);
+    }
+
+    .infos__perguntas {
+        padding: 3rem 13rem 3rem 13rem;
+    }
+
+    .infos__perguntas__container__box__pergunta:hover {
+        background-color: #146C94;
+    }
+
+    .infos__perguntas__container__box__resposta-texto:focus .infos__perguntas__container__box__pergunta {
+        display: block;
+    }
+}

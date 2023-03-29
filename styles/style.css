@@ -1,0 +1,41 @@
+/* Imports */
+@import url("cabecalho.css");
+@import url("rodape.css");
+@import url("main.css");
+@import url("experiencia.css");
+@import url("setores.css");
+@import url("informacoes.css");
+@import url("form_ingresso.css");
+@import url("ingresso_card.css");
+
+/* Variaveis */
+:root {
+    /* Colors */
+    --azul-escuro: #2E7BA2;
+    --azul-claro: #BFDAE6;
+    --azul-piscina: #C8DEEF;
+    --branco: #FFFFFF;
+    --amarelo: #FACF9D;
+    --amarelo-claro: #FCF0DD;
+    --cinza: #444444;
+    --mostarda:#DF9010;
+    --azul-medio: #0E7DF1;
+    --pink: #FE016E;
+    --verde-claro: #01A89E;
+    --roxo: #3F51B5;
+
+    /* Fonts */
+    --fonte-principal: 'Raleway', sans-serif;
+    --fonte-secundaria: 'Calistoga', cursive;
+
+    /* Icons */
+    --estrela: 
+
+}
+
+main {
+    background: linear-gradient(180deg, var(--azul-claro) 0%, var(--amarelo-claro) 50%, var(--amarelo) 100%);
+    font-family: var(--fonte-principal);
+    color: var(--cinza);
+}
+

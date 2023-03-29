@@ -1,0 +1,264 @@
+.experiencia__banner__imagem {
+    width: 100%;
+    height: 270px;
+    background-image: url("../img/Banner_experiencia_360.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: inline-block;
+}
+
+.experiencia__inclusao {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem 4rem 1rem;
+}
+
+.experiencia__inclusao__imagem {
+    width: 100%;
+    height: 381px;
+    background-image: url("../img/Inclusao_360.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.experiencia__inclusao__textos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+}
+
+.experiencia__inclusao__textos-titulo {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.experiencia__inclusao__textos-conteudo {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.experiencia__sustentabilidade {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem 4rem 1rem;
+}
+
+.experiencia__sustentabilidade__imagem {
+    width: 100%;
+    height: 381px;
+    background-image: url("../img/Sustentabilidade_360.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.experiencia__sustentabilidade__textos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+}
+
+.experiencia__sustentabilidade__textos-titulo {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.experiencia__sustentabilidade__textos-conteudo {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.experiencia__atracoes {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem 2rem 1rem
+}
+
+.experiencia__atracoes__imagem {
+    width: 100%;
+    height: 381px;
+    background-image: url("../img/Atracoes_360.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.experiencia__atracoes__textos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+}
+
+.experiencia__atracoes__textos-titulo {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.experiencia__atracoes__textos-conteudo {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+@media(min-width: 768px) {
+    .experiencia__banner__imagem {
+        height: 384px;
+        background-image: url("../img/Banner_experiencia_768.png");
+    }
+
+    .experiencia__inclusao {
+        padding: 2rem 4.5rem;
+    }
+
+    .experiencia__inclusao__imagem {
+        background-image: url("../img/Inclusao_768_1440.png");
+    }
+
+    .experiencia__inclusao__textos {
+        padding: 0 2rem;
+    }
+
+    .experiencia__sustentabilidade {
+        padding: 2rem 4.5rem;
+    }
+
+    .experiencia__sustentabilidade__imagem {
+        background-image: url("../img/Sustentabilidade_768_1440.png");
+    }
+
+    .experiencia__atracoes {
+        padding: 2rem 4.5rem;
+    }
+
+    .experiencia__atracoes__imagem {
+        background-image: url("../img/Atracoes_768_1440.png");
+    }
+
+}
+
+@media(min-width: 1440px) {
+    .experiencia__banner__imagem {
+        height: 407px;
+        background-image: url("../img/Banner_experiencia_1440.png");
+    }
+
+    .experiencia__inclusao {
+        flex-direction: row;
+        margin: 3rem 3.5rem 0 4rem;
+        padding: 0 2.5rem 8rem 2.5rem;
+    }
+
+    .experiencia__inclusao__css {
+        width: 100%;
+        height: 381px;
+        background-image: url("../img/Sustentabilidade_768_1440.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        display: inline-block;
+    }
+
+    .experiencia__inclusao__imagem {
+        width: 609px;
+    }
+
+    .experiencia__inclusao__textos {
+        align-items: start;
+    }
+
+    .experiencia__inclusao__textos-titulo {
+        padding-bottom: 1.5rem;
+    }
+
+    .experiencia__inclusao__textos-conteudo {
+        text-align: left;
+        padding-left: .5rem;
+    }
+
+    .experiencia__sustentabilidade {
+        flex-direction: row-reverse;
+        margin: 3rem 3.5rem 0 4rem;
+        padding: 0 2.5rem 8rem 2.5rem;
+    }
+
+    .experiencia__sustentabilidade__css {
+        width: 100%;
+        height: 381px;
+        background-image: url("../img/Sustentabilidade_768_1440.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        display: inline-block;
+    }
+
+    .experiencia__sustentabilidade__imagem {
+        width: 609px;
+    }
+
+    .experiencia__sustentabilidade__textos {
+        align-items: end;
+        padding-right: 2rem;
+    }
+
+    .experiencia__sustentabilidade__textos-titulo {
+        padding-bottom: 1.5rem;
+    }
+
+    .experiencia__sustentabilidade__textos-conteudo {
+        text-align: right;
+        padding-right: .5rem;
+    }
+
+    .experiencia__atracoes {
+        flex-direction: row;
+        margin: 3rem 3.5rem 0 4rem;
+        padding: 0 2.5rem 4rem 2.5rem;
+    }
+
+    .experiencia__atracoes__css {
+        width: 100%;
+        height: 381px;
+        background-image: url("../img/Atracoes_768_1440.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        display: inline-block;
+    }
+
+    .experiencia__atracoes__imagem {
+        width: 609px;
+    }
+
+    .experiencia__atracoes__textos {
+        align-items: start;
+        padding-left: 2rem;
+    }
+
+    .experiencia__atracoes__textos-titulo{
+        padding-bottom: 1.5rem;
+    }
+
+    .experiencia__atracoes__textos-conteudo {
+        text-align: left;
+        padding-left: .5rem;
+    }
+}

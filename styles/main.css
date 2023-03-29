@@ -1,0 +1,285 @@
+.banner__imagem {
+    width: 100%;
+    height: 270px;
+    background-image: url("../img/Banner_360.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: inline-block;
+}
+
+.home__data {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1.5rem;
+}
+
+.home__data__titulo {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+    padding: 2rem 0 1.5rem 0;
+    text-align: center;
+}
+
+.home__data__imagem-css {
+    width: 100%;
+    height: 381px;
+    background-image: url("../img/Secao_datas_360px.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    display: inline-block;
+}
+
+.home__data__texto {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.home__data__botao {
+    display: flex;
+    align-items: center;
+    background-color: var(--azul-escuro);
+    border-radius: 16px;
+    box-shadow: 4px 4px 0px #444444;
+    text-align: center;
+    padding: 1rem 1rem;
+    gap: 1rem;
+}
+
+.home__data__botao__link {
+    color: var(--branco);
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 1rem;
+
+}
+
+.home__atracoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home__atracoes__titulo {
+    font-family: var(--fonte-secundaria);
+    font-size: 48px;
+    font-weight: 400;
+    margin: 2rem 4rem 5rem 4rem;
+}
+
+.home__atracoes__dia {
+    font-family: var(--fonte-secundaria);
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--branco);
+    background-color: var(--mostarda);
+    padding: 1rem;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.home__atracoes__principal {
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.home__atracoes__bandas_primarias {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 0 1.0rem 0 1rem;
+    text-align: center;
+    line-height: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+.home__atracoes__bandas_primarias-g1 {
+    margin-bottom: 2rem;
+}
+
+.home__atracoes__bandas_secundarias {
+    font-size: 32px;
+    font-weight: 700;
+    padding: 0 1.5rem 0 1rem;
+    text-align: center;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+}
+
+.home__atracoes__bandas_secundarias-g1 {
+    margin-bottom: 2rem;
+}
+
+.home__atracoes__bandas_terciarias {
+    font-size: 32px;
+    font-weight: 500;
+    padding: 0 1.5rem 0 1rem;
+    text-align: center;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+}
+
+.home__atracoes__bandas_terciarias-g1 {
+    margin-bottom: 2rem;
+}
+
+.home__atracoes__bandas_terciarias-g2 {
+    margin-bottom: 5rem;
+}
+
+.home__atracoes__principal-dia2 {
+    margin: 0 1.rem 2rem 1.5rem;
+}
+
+.home__banner__inferior {
+    width: 100%;
+    height: 338px;
+    background-image: url("../img/Banner_rodape_368px.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: inline-block;
+}
+
+
+
+@media (min-width: 768px) {
+    .banner__imagem {
+        width: 100%;
+        height: 384px;
+        background-image: url("../img/Banner_768.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        display: inline-block;
+    }
+
+    .home__data {
+        padding: 3.75rem 4rem;
+    }
+
+    .home__data__imagem-css {
+        padding: 0 1.2rem 0 1.2rem;
+        border-radius: 16px;
+    }
+
+    .home__data__titulo{
+        margin: 0 7rem;
+    }
+    
+    .home__data__botao {
+        margin: 0 12rem 0 10.5rem;
+    }
+
+    .home__atracoes__titulo {
+        font-size: 64px;
+    }
+
+    .home__atracoes__dia {
+        font-size: 48px;
+    }
+
+    .home__atracoes__bandas_primarias-g1 {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+    }
+
+    .home__atracoes__bandas_primarias-g2 {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+    }
+
+    .home__atracoes__bandas_secundarias-g1 {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+    }
+
+    .home__atracoes__bandas_secundarias-g2 {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+    }
+
+    .home__atracoes__bandas_terciarias-g1 {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+    }
+
+    .home__atracoes__bandas_terciarias-g2 {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+    }
+
+    .home__banner__inferior {
+        background-image: url("../img/Banner_rodape_768px.png");
+    }
+
+}
+
+
+
+@media (min-width: 1440px) {
+    .banner__imagem {
+        width: 100%;
+        height: 407px;
+        background-image: url("../img/Banner_1440.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        display: inline-block;
+    }
+
+    .home__data{
+        flex-direction: row;
+        padding: 7rem;
+    }
+
+    .home__data__imagem-css{
+        margin-right: 30rem;
+    }
+
+    .home__data__contanier {
+        margin-left: 3rem;
+    }
+
+    .home__data__texto {
+        padding: 0 5rem 1.5rem 5rem ;
+    }
+
+    .home__data__botao {
+        justify-content: center;
+    }
+
+    .home__atracoes__bandas_primarias {
+        display: flex;
+        gap: 2rem;
+        margin-bottom: 0;
+    }
+
+    .home__atracoes__bandas_secundarias {
+        display: flex;
+        gap: 2rem;
+        margin-bottom: 0;
+    }
+
+    .home__atracoes__bandas_terciarias {
+        display: flex;
+        gap: 2rem;
+    }
+    .home__banner__inferior {
+        background-image: url("../img/Banner_rodape.png");
+    }
+}
+    

@@ -1,0 +1,115 @@
+.form-ingresso__banner__imagem {
+    width: 100%;
+    height: 281px;
+    background-image: url("../img/Banner-Garanta_seu_ingresso360.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+}
+
+.form-ingresso__form {
+    padding: 2rem 1.5rem;
+}
+
+.form-ingresso__form-titulo {
+    font-size: 32px;
+    font-weight: 400;
+    font-family: var(--fonte-secundaria);
+    text-align: center;
+    padding-bottom: 2.5rem;
+}
+
+.form-ingresso__form__formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-ingresso__form__formulario-campo {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: start;
+}
+
+.form-ingresso__form__formulario{
+    margin-bottom: 2rem;
+}
+
+.form-ingresso__form__formulario-botao {
+    margin: 2rem 5rem 0 5rem;
+    padding: .5rem 1rem;
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 16px;
+    box-shadow: 4px 4px 0px #000000;
+    text-align: center;
+}
+
+input[type=text], input[type=email], #ingresso, #cpf {
+    padding: .5rem 0;
+    margin: 0.5rem 0 2rem 0;
+    width: 100%;
+}
+
+input[type=date] {
+    padding: .5rem 0;
+    margin-top: .5rem;
+    width: 100%;
+}
+
+#cpf {
+    width: 50%;
+}
+
+@media(min-width: 768px) {
+    .form-ingresso__banner__imagem {
+        width: 100%;
+        height: 384px;
+        background-image: url("../img/Banner-Garanta_seu_ingresso768.png");
+    }
+
+    .form-ingresso__form {
+        padding: 2.5rem 3.5rem;
+    }
+
+    #datanascimento {
+        width: 75%;
+    }
+
+    .form-ingresso__form__formulario-botao {
+        margin: 2rem 16rem 0 16rem
+    }
+
+
+}
+
+@media(min-width: 1440px) {
+    .form-ingresso__banner__imagem {
+        width: 100%;
+        height: 407px;
+        background-image: url("../img/Banner-Garanta_seu_ingresso1440.png");
+    }
+
+    .form-ingresso__form {
+        padding: 2.5rem 20rem;
+    }
+
+    .form-ingresso__form__formulario__contanier {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .form-ingresso__form__formulario__contanier-campo {
+        width: 50%;
+    }
+
+    .form-ingresso__form__formulario-botao {
+        margin: 2rem 20.5rem 0 20.5rem
+    }
+
+    #datanascimento {
+        width: 100%;
+    }
+}
