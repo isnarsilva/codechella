@@ -16,7 +16,8 @@
     <header class="cabecalho">
         <section class="cabecalho__container">
             <div class="cabecallho__container__logo">
-                <a href="/"><img class="cabecalho__container__logo-img" src="./img/Logo1.png" alt="Logo da CodeChella"></a>
+                <a href="/"><img class="cabecalho__container__logo-img" src="./img/Logo1.png"
+                        alt="Logo da CodeChella"></a>
             </div>
             <div class="cabecalho__container__menu">
                 <a href="experiencia.html" class="cabecalho__container__menu-link">A experiência</a>
@@ -31,16 +32,20 @@
                 </label>
                 <ul class="cabecalho__container__menuhamburger__lista-menu">
                     <li class="cabecalho__container__menuhamburger__lista-menu__item">
-                        <a href="experiencia.html" class="cabecalho__container__menuhamburger__lista-menu__item-link">A experiência</a>
+                        <a href="experiencia.html" class="cabecalho__container__menuhamburger__lista-menu__item-link">A
+                            experiência</a>
                     </li>
                     <li class="cabecalho__container__menuhamburger__lista-menu__item">
-                        <a href="setores.html" class="cabecalho__container__menuhamburger__lista-menu__item-link">Mapa de Setores</a>
+                        <a href="setores.html" class="cabecalho__container__menuhamburger__lista-menu__item-link">Mapa
+                            de Setores</a>
                     </li>
                     <li class="cabecalho__container__menuhamburger__lista-menu__item">
-                        <a href="informacoes.html" class="cabecalho__container__menuhamburger__lista-menu__item-link">Informações</a>
+                        <a href="informacoes.html"
+                            class="cabecalho__container__menuhamburger__lista-menu__item-link">Informações</a>
                     </li>
                     <li class="cabecalho__container__menuhamburger__lista-menu__item">
-                        <a href="form_ingresso.html" class="cabecalho__container__menuhamburger__lista-menu__item-link">Ingresso</a>
+                        <a href="form_ingresso.html"
+                            class="cabecalho__container__menuhamburger__lista-menu__item-link">Ingresso</a>
                     </li>
                 </ul>
             </div>
@@ -52,36 +57,50 @@
         </section>
         <section class="form-ingresso__form">
             <h1 class="form-ingresso__form-titulo">Preencha o formulário a seguir:</h1>
-            <form class="form-ingresso__form__formulario" action="ingresso_card.html" method="post">
-                <fieldset class="fomulario__campo">
-                    <label class="form-ingresso__form__formulario-campo" for="nome">Nome Completo:</label>
-                    <input type="text" id="nome" name="nome" required minlength="5">
+
+            <form class="form-ingresso__form__formulario" data-formulario>
+
+                <fieldset class="formulario__campo">
+                    <label class="form-ingresso__form__formulario-campo" for="nome">Nome Completo</label>
+                    <input type="nome" id="nome" class="campo_escrito" name="nome" required minlength="5" />
+                    <span class="mensagem-erro"></span>
                 </fieldset>
 
-                <label class="form-ingresso__form__formulario-campo" for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <fieldset class="formulario__campo">
+                    <label class="form-ingresso__form__formulario-campo" for="email">Email</label>
+                    <input type="email" id="email" class="campo_escrito" name="email" required minlength="5">
+                    <span class="mensagem-erro"></span>
+                </fieldset>
 
                 <div class="form-ingresso__form__formulario__contanier">
                     <div class="form-ingresso__form__formulario__contanier-campo">
+                    <fieldset class="formulario__campo">
                         <label class="form-ingresso__form__formulario-campo" for="ingresso">Tipo de
                             ingresso</label>
                         <select name="ingresso" id="ingresso">
-                            <option value="inteira">Tipo de ingresso</option>
                             <option value="inteira">Pista Premium</option>
                             <option value="inteira">Pista Comum</option>
                             <option value="inteira">Cadeiras térreo</option>
                             <option value="inteira">Cadeiras superiores</option>
                             <option value="inteira">Rampas</option>
                         </select>
+                        <span class="mensagem-erro"></span>
+                    </fieldset>
                     </div>
                     <div class="form-ingresso__form__formulario__contanier-campo">
-                        <label class="form-ingresso__form__formulario-campo" for="datanascimento">Data de
+                        <fieldset class="formulario__campo">
+                            <label class="form-ingresso__form__formulario-campo" for="datanascimento">Data de
                             nascimento:</label>
-                        <input type="date" id="datanascimento" name="datanascimento" required>
+                            <input type="date" id="datanascimento" name="datanascimento" class="campo_escrito campo__escrita--menor" required>
+                            <span class="mensagem-erro"></span>
+                        </fieldset>
                     </div>
                 </div>
 
-                <input class="form-ingresso__form__formulario-botao" type="submit" value="Avançar ➡">
+                <div>
+                    <input class="form-ingresso__form__formulario-botao" type="submit" id="enviar" data-botao-enviar value="Avançar ➡">
+                    <span class="mensagem-erro"></span>   
+                </div>    
             </form>
         </section>
     </main>
@@ -107,6 +126,7 @@
             </p>
         </div>
     </footer>
+    <script src="./Js/script.js" type="module"></script>
 </body>
 
 </html>
